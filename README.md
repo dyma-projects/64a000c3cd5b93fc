@@ -22,7 +22,7 @@ Puis lancer le serveur de développement avec :
 - [x] Dans ce service, utilisez un attribut public ( `public users` ) qui sera un `BehaviorSubject` de type `string[]`. Ajoutez également une méthode `addUser()` pour pouvoir ajouter un nom d'utilisateur dans cet attribut.
 - [x] Injectez le service dans le composant `AddUserComponent`.
 - [x] Utilisez la méthode `AddUser()` du service `UserService` pour ajouter un user dans le BehaviorSubject `public users`.
-- [ ] Dans le composant `UserListComponent`, injectez le service `UserService` et utilisez l'attribut `users` pour récuperer la liste des users et l'afficher dans la liste.
+- [x] Dans le composant `UserListComponent`, injectez le service `UserService` et utilisez l'attribut `users` pour récuperer la liste des users et l'afficher dans la liste.
 
 ## Avant de finir le projet
 
